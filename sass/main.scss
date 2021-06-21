@@ -1,0 +1,39 @@
+// BASE
+@import './utils/variables';
+@import './base/base-reset';
+@import './base/base-styles';
+// COMPONENTS
+@import './components/titles';
+@import './components/social-links-styles';
+// MODAL SECTION
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-form';
+// LAYOUT
+// HEADER
+@import './layout/header-settings';
+@import './layout/header-logo';
+@import './layout/navigation';
+@import './layout/header-contacts';
+@import './layout/mobile-menu';
+// HERO
+@import './layout/hero';
+// ABOUT US
+@import './layout/about-us';
+// WHAT WE DO
+@import './layout/what-we-do';
+// OUR TEAM
+@import './layout/our-team';
+// REGULAR CUSTOMERS
+@import './layout/regular-customers';
+// FOOTER
+@import './layout/footer-settings';
+@import './layout/logo-footer';
+@import './layout/footer-contacts';
+@import './layout/footer-social-links';
+@import './layout/footer-form';
+
+// PORTFOLIO
+@import './portfolio/portfolio-settings';
+@import './portfolio/buttons-list';
+@import './portfolio/portf-section-works';

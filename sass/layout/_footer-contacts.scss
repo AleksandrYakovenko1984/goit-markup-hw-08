@@ -1,0 +1,43 @@
+.address {
+  margin-top: 20px;
+}
+.address__fact {
+  width: 231px;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 9px;
+  letter-spacing: 0.03em;
+
+  color: var(--second-primary-text-color);
+}
+.address__mail {
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+  margin-bottom: 9px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+.address__tel {
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}

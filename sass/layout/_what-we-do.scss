@@ -1,0 +1,31 @@
+.occupation {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.occupation__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  li {
+    position: relative;
+    width: 370px;
+  }
+  div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 27px 0;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}

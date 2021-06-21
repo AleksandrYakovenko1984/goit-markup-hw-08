@@ -1,0 +1,13 @@
+.footer {
+  padding: 60px 0;
+  background-color: var(--background-color-primary);
+}
+.footer__blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  @media (max-width: 768px) {
+    display: block;
+    text-align: center;
+  }
+}

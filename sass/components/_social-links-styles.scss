@@ -1,0 +1,31 @@
+.card-social-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.card-social-links__item {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: background-color var(--duration) var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accennt-color);
+  }
+}
+
+.card-social-links__icon {
+  fill: #afb1b8;
+  transition: fill var(--duration) var(--timing-function);
+  .card-social-links__item:hover &,
+  .card-social-links__item:focus & {
+    fill: #ffffff;
+  }
+  &:hover {
+    fill: #ffffff;
+  }
+}
