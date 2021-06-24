@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   li {
-    width: 270px;
+    // width: 270px;
   }
   li:not(:last-child) {
     margin-right: 30px;
@@ -47,14 +47,24 @@
   margin-bottom: 10px;
 }
 .qualitys__text {
-  width: 270px;
+  // width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .qualitys__list {
     display: block;
+  }
+
+  .qualitys {
+    padding: 60px 0;
+  }
+  .qualitys__list li {
+    width: 450px;
+  }
+  .qualitys__text {
+    width: auto;
   }
 }

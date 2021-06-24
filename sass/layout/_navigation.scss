@@ -50,7 +50,7 @@
   transition: opacity var(--duration) var(--timing-function);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .menu__list {
     display: none;
   }
@@ -64,5 +64,13 @@
   .menu__button {
     border: none;
     background-color: transparent;
+  }
+}
+@media (min-width: 768px) {
+  .menu__button {
+    display: none;
+  }
+  .menu__icon {
+    display: none;
   }
 }

@@ -7,3 +7,13 @@
 ul {
   list-style: none;
 }
+@media (min-width: 768px) {
+  .header {
+    width: 768px;
+  }
+}
+@media (min-width: 1170px) {
+  .header {
+    width: 1170px;
+  }
+}
