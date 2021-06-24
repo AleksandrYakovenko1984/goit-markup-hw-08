@@ -781,6 +781,12 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+@media (max=width: 767px) {
+  .team__cardlist {
+    flex-wrap: wrap;
+  }
+}
+
 .agent {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -812,11 +818,11 @@ ul {
   margin-right: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .team {
     padding: 60px 0;
   }
-  .team__cardlist {
+  .team__card {
     display: block;
   }
 }
@@ -889,6 +895,9 @@ ul {
   .customers {
     padding: 60px 0;
   }
+  .center {
+    margin: 30px 0 30px 0;
+  }
 }
 
 .footer {
@@ -906,6 +915,8 @@ ul {
   .footer__blocks {
     display: block;
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -964,6 +975,15 @@ ul {
   letter-spacing: 0.03em;
 }
 
+@media (max-width: 767px) {
+  .social-block {
+    display: inline-block;
+    flex: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
 .social-block__porpose {
   color: #fff;
   font-weight: bold;
@@ -974,15 +994,16 @@ ul {
   text-transform: uppercase;
 }
 
+@media (max-width: 767px) {
+  .social-block__porpose {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .social-list {
   display: flex;
   margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-  .social-list {
-    text-align: center;
-  }
 }
 
 .social-list .social-list__item {
@@ -1022,6 +1043,12 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .footer-form__name {
+    margin-bottom: 20px;
+  }
 }
 
 .footer-form__btn {
@@ -1088,6 +1115,16 @@ ul {
   letter-spacing: 0.06em;
   color: #ffffff;
   padding-left: 28px;
+}
+
+@media (max-width: 767px) {
+  .footer-form__button {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
 }
 
 .footer-form__icon {
