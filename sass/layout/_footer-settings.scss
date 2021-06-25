@@ -6,10 +6,15 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     display: block;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }

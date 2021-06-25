@@ -6,6 +6,10 @@
   @media (max-width: 480px) {
     max-width: 100%;
   }
+  @media (min-width: 768px) {
+    min-width: 768px;
+    width: auto;
+  }
 }
 .header-container {
   display: flex;
