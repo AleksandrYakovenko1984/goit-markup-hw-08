@@ -781,7 +781,7 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-@media (max=width: 767px) {
+@media (max-width: 767px) {
   .team__cardlist {
     flex-wrap: wrap;
   }
@@ -810,20 +810,16 @@ ul {
   color: var(--title-text-color);
 }
 
-.team__card {
-  background-color: #ffffff;
-}
-
-.team__card:not(:last-child) {
-  margin-right: 30px;
-}
-
 @media (max-width: 767px) {
   .team {
     padding: 60px 0;
   }
   .team__card {
     display: block;
+    background-color: #fff;
+  }
+  .team__card:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
