@@ -1,10 +1,4 @@
 .social-block {
-  @media (max-width: 767px) {
-    display: inline-block;
-    flex: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
 }
 
 .social-block__porpose {
@@ -15,16 +9,10 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  @media (max-width: 767px) {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 .social-list {
   display: flex;
   margin-top: 20px;
-  @media (max-width: 767px) {
-  }
 }
 .social-list .social-list__item {
   margin-right: 10px;
@@ -48,4 +36,22 @@
   width: 20px;
   height: 20px;
   fill: #ffffff;
+}
+@media (max-width: 767px) {
+  .social-block {
+    display: inline-block;
+    flex: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .social-block__porpose {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) {
+  .social-block__porpose {
+    justify-content: center;
+  }
 }

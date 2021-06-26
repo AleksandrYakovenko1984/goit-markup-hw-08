@@ -29,3 +29,8 @@
     fill: #ffffff;
   }
 }
+@media (min-width: 768px) {
+  .card-social-links__item {
+    width: auto;
+  }
+}

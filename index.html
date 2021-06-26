@@ -51,17 +51,25 @@
           <button class="mobile-menu__close-btn" data-menu-close> <svg class="mobile-menu__icon">
             <use href="./images/icon-img/symbol-defs.svg#icon-close"></use>
           </svg></button>
-          <ul>
+          <ul class="mobile-menu__nav-list">
             <li class="mobile-menu__item"> <a class="mobile-menu__link" href="">Студия</a></li>
             <li class="mobile-menu__item"> <a class="mobile-menu__link" href="">Портфолио</a></li>
             <li class="mobile-menu__item"> <a class="mobile-menu__link" href="">Контакты</a></li>
             
-              <li >
-                <a  lang="en" target="_blank" href="mailto:info@devstudio.com">  info@devstudio.com</a>
-              </li>
-              <li ><a href="tel:+380961111111">  +380961111111</a></li>
-            
           </ul>
+          <ul>
+            <li ><a class="mobile-menu__contacts-tel" href="tel:+380961111111">  +380961111111</a></li>
+              <li >
+                <a class="mobile-menu__contacts-mail" lang="en" target="_blank" href="mailto:info@devstudio.com">  info@devstudio.com</a>
+              </li>
+              
+            </ul>
+            <ul class="mobile-menu-social-list">
+              <li> <a class="mobile-menu-social-list__link" href="">Instagram  <span class="bord">|</span></a></li>
+              <li> <a class="mobile-menu-social-list__link" href="">Twitter   <span class="bord">|</span></a></li>
+              <li> <a class="mobile-menu-social-list__link" href="">Facebook  <span class="bord">|  </span></a></li>
+              <li> <a class="mobile-menu-social-list__link" href="">LinkedIn </a></li>
+            </ul>
         </div>
       </div>
     </div>
@@ -165,7 +173,7 @@
         <ul class="team__cardlist">
           <li class="team__card">
             <picture class="picture">
-              <source srcset="./images/our-team/img1mob.igor-demianenko-1x.jpg, ./images/our-team/img1mob.igor-demianenko-2x" media="(min-width:280px)">
+              <source srcset="./images/our-team/img1mob.igor-demianenko-1x.jpg 1x, ./images/our-team/img1mob.igor-demianenko-2x" media="(min-width:280px)">
             <img
               src="./images/our-team/img1mob.igor-demianenko-1x.jpg"
               alt="Игорь-Демьяненко-специалист"
@@ -276,10 +284,10 @@
             <li class="customers__item"><a class="customers__link" href="index.html"><svg class="customers__logo">
               <use href="./images/icon-img/symbol-defs.svg#icon-group-two"> </use>
             </svg></a></li>
-            <li class="customers__item center"><a class="customers__link" href="index.html"><svg class="customers__logo">
+            <li class="customers__item"><a class="customers__link" href="index.html"><svg class="customers__logo">
               <use href="./images/icon-img/symbol-defs.svg#icon-group-three"> </use>
             </svg></a></li>
-            <li class="customers__item center"><a class="customers__link" href="index.html"><svg class="customers__logo">
+            <li class="customers__item"><a class="customers__link" href="index.html"><svg class="customers__logo">
               <use href="./images/icon-img/symbol-defs.svg#icon-group-for"> </use>
             </svg></a></li>
             <li class="customers__item"><a class="customers__link" href="index.html"><svg class="customers__logo">
@@ -299,7 +307,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__blocks">
-          <div>
+          <div class="footer__contacts">
         <a class="logo-footer" href="./index.html"> <span class="logo-color"> Web</span>Studio</a>
         <address>
           <ul class="address">

@@ -60,12 +60,22 @@
   }
 }
 @media (min-width: 768px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .team__cardlist {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: -30px;
     li {
       width: calc(50% - 15px);
+      margin-bottom: 30px;
+      background-color: #fff;
+      img {
+        height: auto;
+      }
     }
   }
 }

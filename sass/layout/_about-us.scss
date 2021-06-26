@@ -69,13 +69,19 @@
   }
 }
 @media (min-width: 768px) {
+  .qualitys {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .qualitys__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: -30px;
     li {
       margin-right: 0;
       width: calc(50% - 15px);
+      margin-bottom: 30px;
     }
   }
   .qualitys__list li:not(:last-child) {

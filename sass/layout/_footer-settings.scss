@@ -6,13 +6,21 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  @media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+  .footer {
+    padding: 60px 0;
+  }
+  .footer__blocks {
     display: block;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
   }
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  .footer {
+    padding: 60px 0;
+  }
+  .footer__blocks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
