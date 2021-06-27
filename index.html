@@ -53,7 +53,7 @@
           </svg></button>
           <ul class="mobile-menu__nav-list">
             <li class="mobile-menu__item"> <a class="mobile-menu__link" href="">Студия</a></li>
-            <li class="mobile-menu__item"> <a class="mobile-menu__link" href="">Портфолио</a></li>
+            <li class="mobile-menu__item"> <a class="mobile-menu__link" href="./portfolio.html">Портфолио</a></li>
             <li class="mobile-menu__item"> <a class="mobile-menu__link" href="">Контакты</a></li>
             
           </ul>
@@ -173,8 +173,10 @@
         <ul class="team__cardlist">
           <li class="team__card">
             <picture class="picture">
-              <source srcset="./images/our-team/img1mob.igor-demianenko-1x.jpg 1x, ./images/our-team/img1mob.igor-demianenko-2x" media="(min-width:280px)">
-            <img
+              <source srcset="./images/our-team/img1mob.igor-demianenko-1x.jpg 1x, ./images/our-team/img1mob.igor-demianenko-2x.jpg 2x" media="(min-width:280px)">
+            <source srcset="./images/our-team/img1tablet.igor-demianenko-1x.jpg. 1x, ./images/our-team/img1tablet.igor-demianenko-2x.jpg 2x" media="(min-width: 768px)">
+            <source srcset="" media="(min-width: 1200px)">
+              <img
               src="./images/our-team/img1mob.igor-demianenko-1x.jpg"
               alt="Игорь-Демьяненко-специалист"
               width="450"
@@ -197,12 +199,18 @@
           </ul>
           </li>
           <li class="team__card">
+            <picture>
+              <source
+                srcset="./images/our-team/img2mob.olga-repina-1x.jpg 1x, ./images/our-team/img2mob.olga-repina-2x.jpg 2x"
+                media="(min-width:280px)">
+              <source srcset="./images/our-team/img2tablet.olga-repina-1x.jpg 1x, ./images/our-team/img2tablet.olga-repina-2x.jpg 2x" media="(min-width: 768px)">
+              <source srcset="" media="(min-width: 1200px)">
             <img
               src="./images/our-team/img2mob.olga-repina-1x.jpg"
               alt="Ольга-Репина-специалист"
               width="450"
               height="460"
-            />
+            /></picture>
             <div class="agent"> <h3 class="agent__name">Ольга Репина</h3>
             <p class="agent__prof" lang="en">Frontend Developer</p></div>
             <ul class="card-social-links">
@@ -221,12 +229,16 @@
             </ul>
           </li>
           <li class="team__card">
+            <picture>
+              <source srcset="./images/our-team/img3mob.nikolay-tarasov-1x.jpg 1x, ./images/our-team/img3mob.nikolay-tarasov-2x.jpg 2x" media="(min-width:280px)">
+              <source srcset="./images/our-team/img3tablet.nikolay-tarasov-1x.jpg 1x, ./images/our-team/img3tablet.nikolay-tarasov-2x.jpg 2x" media="(min-width: 768px)">
+              <source srcset="" media="(min-width: 1200px)">
             <img
               src="./images/our-team/img3mob.nikolay-tarasov-1x.jpg"
               alt="Николай-Тарасов-специалист"
               width="450"
               height="460"
-            />
+            /></picture>
             <div class="agent"> <h3 class="agent__name">Николай Тарасов</h3>
             <p class="agent__prof" lang="en">Marketing</p></div>
             <ul class="card-social-links">
@@ -245,12 +257,16 @@
             </ul>
           </li>
           <li class="team__card">
+            <picture>
+              <source srcset="./images/our-team/img4mob.mihail-ermakov-1x.jpg 1x, ./images/our-team/img4mob.mihail-ermakov-2x.jpg 2x" media="(min-width:280px)">
+              <source srcset="./images/our-team/img4tablet.michail-ermakov-1x.jpg 1x, ./images/our-team/img4tablet.michail-ermakov-2x.jpg 2x" media="(min-width: 768px)">
+              <source srcset="" media="(min-width: 1200px)">
             <img
               src="./images/our-team/img4mob.mihail-ermakov-1x.jpg"
               alt="Михаил-Ермаков-специалист"
               width="450"
               height="460"
-            />
+            /></picture>
             <div class="agent"> <h3 class="agent__name">Михаил Ермаков</h3>
             <p class="agent__prof" lang="en">UI Designer</p></div>
             <ul class="card-social-links">

@@ -75,3 +75,10 @@
   box-sizing: border-box;
   padding: 20px 24px;
 }
+@media (max-width: 767px) {
+  .portfolio img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
