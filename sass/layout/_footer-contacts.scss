@@ -42,4 +42,16 @@
   letter-spacing: 0.03em;
 }
 @media (min-width: 768px) {
+  .address__fact {
+    margin-bottom: 8px;
+  }
+  .address__mail {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .address__tel {
+    display: block;
+    text-align: center;
+  }
 }

@@ -76,9 +76,19 @@
   padding: 20px 24px;
 }
 @media (max-width: 767px) {
-  .portfolio img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  .portfolio {
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .card-block {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .card-block {
+    width: 354px;
   }
 }

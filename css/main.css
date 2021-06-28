@@ -1071,6 +1071,7 @@ ul {
 @media (min-width: 768px) {
   .footer {
     padding: 60px 0;
+    height: 463px;
   }
   .footer__blocks {
     display: flex;
@@ -1089,6 +1090,15 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-primary-text-color);
+}
+
+@media (min-width: 768px) {
+  .logo-footer {
+    display: block;
+    text-align: center;
+    width: auto;
+    font-size: 24px;
+  }
 }
 
 .address {
@@ -1132,6 +1142,21 @@ ul {
   line-height: 1.7;
   /* or 171% */
   letter-spacing: 0.03em;
+}
+
+@media (min-width: 768px) {
+  .address__fact {
+    margin-bottom: 8px;
+  }
+  .address__mail {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .address__tel {
+    display: block;
+    text-align: center;
+  }
 }
 
 .social-block__porpose {
@@ -1184,6 +1209,13 @@ ul {
   .social-block__porpose {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .social-block__porpose {
+    display: block;
+    text-align: center;
   }
 }
 
@@ -1303,6 +1335,9 @@ ul {
   .footer-form__input {
     height: 50px;
   }
+  .footer-form {
+    margin-top: 60px;
+  }
 }
 
 .section-conteiner {
@@ -1315,7 +1350,7 @@ ul {
 
 @media (min-width: 480px) {
   .section-conteiner {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -1323,6 +1358,15 @@ ul {
   .section-conteiner {
     padding-top: 60px;
     padding-bottom: 60px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-conteiner {
+    max-width: 900px;
+    padding: 60px 0;
+    width: 100%;
   }
 }
 
@@ -1381,6 +1425,12 @@ ul {
   .button-list li {
     margin-right: 7px;
     margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .button-list {
+    margin-bottom: 30px;
   }
 }
 
@@ -1467,9 +1517,18 @@ ul {
 
 @media (max-width: 767px) {
   .portfolio img {
-    display: block;
     max-width: 100%;
     height: auto;
+    display: block;
+  }
+  .card-block {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-block {
+    width: 354px;
   }
 }
 /*# sourceMappingURL=main.css.map */
