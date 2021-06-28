@@ -79,3 +79,20 @@
     }
   }
 }
+@media (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    display: flex;
+  }
+  .team__cardlist {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    li {
+      width: 270px;
+    }
+  }
+  // .team__card {
+  //   width: 270px;
+  // }
+}

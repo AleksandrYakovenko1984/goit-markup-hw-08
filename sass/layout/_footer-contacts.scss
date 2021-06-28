@@ -55,3 +55,11 @@
     text-align: center;
   }
 }
+@media (min-width: 1200px) {
+  .address__mail {
+    text-align: left;
+  }
+  .address__tel {
+    text-align: left;
+  }
+}

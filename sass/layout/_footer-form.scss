@@ -111,3 +111,21 @@
     margin-top: 60px;
   }
 }
+@media (min-width: 1200px) {
+  .footer-form {
+    margin-top: 0;
+  }
+  .footer-form__button {
+    margin-top: 0;
+    margin-left: 12px;
+  }
+  .footer-form__btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer-form__name {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

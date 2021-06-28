@@ -56,3 +56,9 @@
     text-align: center;
   }
 }
+@media (min-width: 1200px) {
+  .social-block__porpose {
+    display: block;
+    text-align: left;
+  }
+}

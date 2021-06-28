@@ -13,17 +13,21 @@
     min-width: 768px;
     width: auto;
   }
-  @media (min-width: 1140px) {
-    width: 1140px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
-@media (min-width: 1170px) {
-}
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 body {
   font-family: Roboto, sans-serif;
   background: #ffffff;

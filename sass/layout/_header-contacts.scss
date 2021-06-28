@@ -63,3 +63,14 @@
     margin-top: 5px;
   }
 }
+@media (min-width: 1200px) {
+  .contacts {
+    display: flex;
+  }
+  .contacts__mail {
+    margin-bottom: 0;
+  }
+  .contacts__phone {
+    margin-top: 0;
+  }
+}
