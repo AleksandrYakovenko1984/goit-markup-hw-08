@@ -41,7 +41,7 @@
 @media (max-width: 767px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(/images/icon-img/hero1xmob.jpg);
+      url(../images/icon-img/hero1xmob.jpg);
     background-repeat: no-repeat;
     max-width: 480px;
     max-height: 400px;
@@ -61,7 +61,7 @@
 @media (min-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(/images/icon-img/hero1xtablet.jpg);
+      url(../images/icon-img/hero1xtablet.jpg);
     background-repeat: no-repeat;
     width: 768px;
     height: 400px;
