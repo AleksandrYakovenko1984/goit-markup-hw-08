@@ -30,17 +30,22 @@
   }
 }
 @media (min-width: 768px) {
+  .card-social-links {
+  }
   .card-social-links__item {
-    width: auto;
+    width: 44px;
+    height: 44px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media (min-width: 1200px) {
   .card-social-links__item {
     width: 44px;
     height: 44px;
-  }
-  .card-social-links {
     margin-left: auto;
     margin-right: auto;
+  }
+  .card-social-links {
   }
 }

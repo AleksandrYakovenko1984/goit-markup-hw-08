@@ -141,7 +141,10 @@ body {
 
 @media (min-width: 768px) {
   .card-social-links__item {
-    width: auto;
+    width: 44px;
+    height: 44px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -149,8 +152,6 @@ body {
   .card-social-links__item {
     width: 44px;
     height: 44px;
-  }
-  .card-social-links {
     margin-left: auto;
     margin-right: auto;
   }
