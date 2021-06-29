@@ -9,12 +9,18 @@
   @media (max-width: 480px) {
     max-width: 100%;
   }
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  .container {
     min-width: 768px;
     width: auto;
   }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
-
 @media (min-width: 1200px) {
   .container {
     width: 1200px;

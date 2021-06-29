@@ -63,6 +63,11 @@ a {
     min-width: 768px;
     width: auto;
   }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -393,12 +398,17 @@ ul {
 @media (min-width: 768px) {
   .header {
     width: 768px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
 @media (min-width: 1200px) {
   .header {
     width: 1200px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -481,6 +491,7 @@ ul {
   }
   .menu {
     padding: 16px 0;
+    justify-content: space-between;
   }
   .menu__icon {
     width: 40px;
@@ -762,8 +773,7 @@ ul {
 
 @media (min-width: 1200px) {
   .hero {
-    width: 1200px;
-    max-width: 1600px;
+    width: 1600px;
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -1129,6 +1139,9 @@ ul {
     width: 170px;
     height: 92px;
   }
+  .customers__title li {
+    width: 170px;
+  }
 }
 
 .footer {
@@ -1160,7 +1173,7 @@ ul {
   .footer__blocks {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
@@ -1431,7 +1444,7 @@ ul {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1170px) {
   .footer-form__name {
     margin-left: auto;
     margin-right: auto;
@@ -1452,6 +1465,8 @@ ul {
   }
   .footer-form {
     margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -1501,6 +1516,16 @@ ul {
     max-width: 900px;
     padding: 60px 0;
     width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-conteiner {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
   }
 }
 
@@ -1663,6 +1688,23 @@ ul {
 @media (min-width: 768px) {
   .card-block {
     width: 354px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--card-set-gap));
+    margin-left: -30px;
+  }
+  .card-block {
+    width: calc(100% / 3 - 30px);
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
   }
 }
 /*# sourceMappingURL=main.css.map */

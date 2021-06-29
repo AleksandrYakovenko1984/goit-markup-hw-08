@@ -25,3 +25,12 @@
     width: 100%;
   }
 }
+@media (min-width: 1200px) {
+  .section-conteiner {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
+  }
+}

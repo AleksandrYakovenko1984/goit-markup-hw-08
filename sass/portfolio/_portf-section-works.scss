@@ -92,3 +92,20 @@
     width: 354px;
   }
 }
+@media (min-width: 1200px) {
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--card-set-gap));
+    margin-left: -30px;
+  }
+  .card-block {
+    width: calc(100% / 3 - 30px);
+    // flex-basis: calc(100% / 3-var(--card-set-gap));
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+  }
+}
