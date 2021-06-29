@@ -667,6 +667,10 @@ ul {
     display: flex;
     margin-top: 64px;
   }
+  .mobile-menu-social-list__item:not(:last-child) {
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    padding-right: 10px;
+  }
   .mobile-menu-social-list__link {
     display: block;
     font-family: Roboto;
@@ -677,9 +681,7 @@ ul {
     /* identical to box height, or 122% */
     letter-spacing: 0.02em;
     color: #2196f3;
-  }
-  .bord {
-    color: #212121;
+    padding-left: 10px;
   }
   .mobile-menu__close-btn:hover,
   .mobile-menu__close-btn:focus {
