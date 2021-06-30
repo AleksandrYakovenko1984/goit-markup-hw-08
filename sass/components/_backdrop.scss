@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(141, 122, 122, 0.5);
   z-index: 100;
   opacity: 1;
   visibility: visible;
@@ -15,4 +15,68 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .backdrop {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(141, 122, 122, 0.5);
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 250ms linear, visibility 250ms linear;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+@media (min-width: 768px) {
+  .backdrop {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(141, 122, 122, 0.5);
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 250ms linear, visibility 250ms linear;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+@media (min-width: 1200px) {
+  .backdrop {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(141, 122, 122, 0.5);
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 250ms linear, visibility 250ms linear;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }

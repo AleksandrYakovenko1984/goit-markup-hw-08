@@ -29,6 +29,12 @@
     fill: #ffffff;
   }
 }
+@media (max-width: 768px) {
+  .card-social-links {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media (min-width: 768px) {
   .card-social-links {
     display: flex;
