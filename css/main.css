@@ -159,6 +159,9 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+  .card-social-links {
+    justify-content: center;
+  }
 }
 
 .backdrop {
@@ -1013,13 +1016,13 @@ ul {
     flex-wrap: wrap;
     margin-bottom: -30px;
   }
-  .team__cardlist li {
-    flex-basis: calc(50% - 15px);
+  .team__cardlist img {
+    height: auto;
+  }
+  .team__card {
+    width: calc(50% - 15px);
     margin-bottom: 30px;
     background-color: #fff;
-  }
-  .team__cardlist li img {
-    height: auto;
   }
 }
 
@@ -1033,8 +1036,9 @@ ul {
     flex-wrap: nowrap;
     justify-content: space-between;
   }
-  .team__cardlist li {
+  .team__card {
     width: 270px;
+    margin-right: 30px;
   }
 }
 
