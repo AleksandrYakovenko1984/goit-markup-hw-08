@@ -24,12 +24,15 @@
   .footer__blocks {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 @media (min-width: 1200px) {
   .footer {
     padding: 60px 0;
     height: 252px;
+  }
+  .footer__blocks {
+    justify-content: space-between;
   }
 }

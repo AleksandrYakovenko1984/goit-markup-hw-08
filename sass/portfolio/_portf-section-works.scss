@@ -91,6 +91,9 @@
   .card-block {
     width: 354px;
   }
+  .card-block__title {
+    letter-spacing: 0;
+  }
 }
 @media (min-width: 1200px) {
   .portfolio {
@@ -106,5 +109,6 @@
     // flex-basis: calc(100% / 3-var(--card-set-gap));
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
+    width: 370px;
   }
 }
