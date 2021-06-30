@@ -26,13 +26,22 @@
       border-color: var(--accennt-color);
     }
   }
-
-@media (max-width: 767px) {
+}
+@media (max-width: 950px) {
   .modal {
-     position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 450px;
-  height: 609px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 609px;
   }
-
+}
+@media (min-width: 951px) {
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 528px;
+    height: 581px;
+  }
+}
