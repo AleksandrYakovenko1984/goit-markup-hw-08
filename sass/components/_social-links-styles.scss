@@ -31,6 +31,8 @@
 }
 @media (min-width: 768px) {
   .card-social-links {
+    display: flex;
+    justify-content: center;
   }
   .card-social-links__item {
     width: 44px;

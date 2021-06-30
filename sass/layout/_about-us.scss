@@ -90,11 +90,12 @@
 }
 @media (min-width: 1200px) {
   .qualitys {
-    padding: 94px 0;
+    padding-top: 94px;
+    padding-bottom: 0;
   }
   .qualitys__list {
     flex-wrap: nowrap;
-    margin-right: -30px;
+
     li {
       width: 270px;
       margin-bottom: 0;
